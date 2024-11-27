@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Envuelve todo el contenido de la página en un nuevo div con la clase page Recuerda agregar la etiqueta de cierre -->
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestros lectores</a
+              >
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="staff" class="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Harry Potter</h3>
+                <p class="card__text">
+                  Harry Potter es una serie de novelas fantásticas escrita por
+                  la autora británica J. K. Rowling, en la que se describen las
+                  aventuras del joven aprendiz de magia y hechicería Harry
+                  Potter y sus amigos Hermione Granger y Ron Weasley, durante
+                  los años que pasan en el Colegio Hogwarts de Magia y
+                  Hechicería.
+                </p>
+                <p class="card__footer">J.K. Rowling</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Don Quijote de la Mancha</h3>
+                <p class="card__text">
+                  "Don Quijote de la Mancha" es una obra maestra de la
+                  literatura española que combina elementos de comedia, tragedia
+                  y crítica social. A través de las aventuras del ingenioso
+                  hidalgo Don Quijote, Miguel de Cervantes nos invita a
+                  reflexionar sobre la naturaleza de la realidad y los límites
+                  entre la fantasía y la cordura.
+                </p>
+                <p class="card__footer">Miguel de Cervantes</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Cien años de Soledad</h3>
+                <p class="card__text">
+                  Cien años de soledad es la obra cumbre del escritor colombiano
+                  Gabriel García Márquez, ganador del Premio Nobel de Literatura
+                  en 1982. Se considera una obra maestra de la literatura
+                  universal y es, además, una de las más traducidas y leídas del
+                  español. Su primera edición se publicó en Buenos Aires en mayo
+                  de 1967 y desde entonces, se han vendido más de 30 millones de
+                  ejemplares y ha sido traducida a 35 idiomas.
+                </p>
+                <p class="card__footer">Gabriel García Márquez</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Fundamentos de la Programacion</h3>
+                <p class="card__text">
+                  Desde que se publicó la cuarta edición de esta obra en 2008,
+                  el mundo en general y el ámbito de la programación en
+                  particular han experimentado cambios significativos. Múltiples
+                  tecnologías de la información y la comunicación (TIC) se han
+                  consolidado, y han surgido numerosas tecnologías disruptivas.
+                </p>
+                <p class="card__footer">Luis Joyanes Aguilar</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
