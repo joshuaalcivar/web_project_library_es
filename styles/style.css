@@ -355,12 +355,12 @@
 }
 
 .footer__columns {
-  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__column {
-  display: flex;
-  justify-content: space-between;
+  margin: 0;
 }
 
 .footer__column_content_hours {
